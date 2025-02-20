@@ -10,7 +10,7 @@ Language: English
 
 Demo: https://youtu.be/bS-vCLdtyTM
 
-Pitch:
+Pitch: https://youtu.be/dxd7ode8MZw
 
 
 Instructions how to use project:
