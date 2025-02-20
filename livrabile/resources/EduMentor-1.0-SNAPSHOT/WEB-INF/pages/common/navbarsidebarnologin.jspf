@@ -1,0 +1,101 @@
+<%--
+  JSP Fragment: navbarsidebarnologin.jspf
+  Description: Defines the common navigation bar and sidebar structure for non-logged-in users.
+--%>
+<%-- Navigation bar (header) --%>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <%-- Button to toggle the offcanvas sidebar --%>
+        <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+            <%-- Hamburger icon --%>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <%-- Brand logo/link --%>
+        <a class="navbar-brand ms-3" href="/">EduMentor</a>
+        <%-- Navbar toggler for smaller screens --%>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <%-- Collapsible navbar content --%>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <%-- Navigation links --%>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <%-- Questions link --%>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/questions.html">Questions</a>
+                </li>
+                <%-- Posts link --%>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/posts.html">Posts</a>
+                </li>
+                <%-- Category dropdown --%>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Choose the post category you want
+                    </a>
+                    <%-- Dropdown menu with categories --%>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <%-- Iterate through the categoryList provided by the servlet --%>
+                        <c:forEach items="${categoryList}" var="category">
+                            <%-- Category links --%>
+                            <li><a class="dropdown-item" href="/posts-category.html?categoryId=${category.categoryId}" value="${category.categoryId}">${category.categoryName}</a></li>
+                        </c:forEach>
+                    </ul>
+                </li>
+                <%-- Category dropdown --%>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Choose the question category you want
+                    </a>
+                    <%-- Dropdown menu with categories --%>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <%-- Iterate through the categoryList provided by the servlet --%>
+                        <c:forEach items="${categoryList}" var="category">
+                            <%-- Category links --%>
+                            <li><a class="dropdown-item" href="/questions-category.html?categoryId=${category.categoryId}" value="${category.categoryId}">${category.categoryName}</a></li>
+                        </c:forEach>
+                    </ul>
+                </li>
+            </ul>
+            <%-- Log In button --%>
+            <form class="d-flex ms-3">
+                <a href="/login.html">
+                    <button class="btn btn-outline-success" type="button">Log In</button>
+                </a>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<%-- Offcanvas sidebar --%>
+<div class="offcanvas offcanvas-start offcanvas-sidebar" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+    <%-- Sidebar header --%>
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Your Settings</h5>
+        <%-- Close button --%>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <%-- Sidebar body --%>
+    <div class="offcanvas-body">
+        <%-- Login message --%>
+        <div class="login-message">
+            <p>Login required to access these options.</p>
+        </div>
+        <%-- Disabled settings list --%>
+        <ul class="list-group">
+            <%-- Disabled My Profile link --%>
+            <li class="list-group-item disabled">My Profile</li>
+            <%-- Disabled Ask a question link --%>
+            <li class="list-group-item disabled">Ask a question</li>
+            <%-- Disabled Post the video link --%>
+            <li class="list-group-item disabled">Have an idea for something that can help?<br>Post the video!</li>
+        </ul>
+        <hr>
+        <%-- Log In button --%>
+        <form class="d-flex ms-3">
+            <a href="/login.html">
+                <button class="btn btn-outline-success" type="button">Log In</button>
+            </a>
+        </form>
+    </div>
+</div>

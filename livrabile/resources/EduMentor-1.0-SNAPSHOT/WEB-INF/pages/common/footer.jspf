@@ -1,0 +1,12 @@
+<%--
+  JSP Fragment: footer.jspf
+  Description: Defines the common footer section for all pages.
+--%>
+<footer class="footer">
+    <div class="container">
+        <%-- Copyright information --%>
+        <p>&copy; 2025 EduMentor. All rights reserved.</p>
+        <%-- Display today's date --%>
+        <p>Today's Date: <span id="currentDate"></span></p>
+    </div>
+</footer>
