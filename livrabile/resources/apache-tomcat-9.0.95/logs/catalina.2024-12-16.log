@@ -1,0 +1,1099 @@
+16-Dec-2024 18:16:21.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.95
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 18:07:47 UTC
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.95.0
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-50-generic
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/adrian/Documents/apache-tomcat-9.0.95
+16-Dec-2024 18:16:21.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/adrian/Documents/apache-tomcat-9.0.95
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/adrian/Documents/apache-tomcat-9.0.95/conf/logging.properties
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|adrian-System-Product-Name
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/adrian/Documents/apache-tomcat-9.0.95
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/adrian/Documents/apache-tomcat-9.0.95
+16-Dec-2024 18:16:21.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/adrian/Documents/apache-tomcat-9.0.95/temp
+16-Dec-2024 18:16:21.746 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Dec-2024 18:16:21.942 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 18:16:21.957 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [341] milliseconds
+16-Dec-2024 18:16:21.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2024 18:16:21.979 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.95]
+16-Dec-2024 18:16:21.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/host-manager]
+16-Dec-2024 18:16:22.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/host-manager] has finished in [154] ms
+16-Dec-2024 18:16:22.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/manager]
+16-Dec-2024 18:16:22.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/manager] has finished in [11] ms
+16-Dec-2024 18:16:22.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/docs]
+16-Dec-2024 18:16:22.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/docs] has finished in [8] ms
+16-Dec-2024 18:16:22.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/examples]
+16-Dec-2024 18:16:22.306 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/adrian/Documents/apache-tomcat-9.0.95/webapps/examples] has finished in [145] ms
+16-Dec-2024 18:16:22.309 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 18:16:22.319 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [362] milliseconds
+16-Dec-2024 18:16:24.140 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 18:16:24.142 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 18:16:24.417 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 18:16:24.424 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [284] ms
+16-Dec-2024 18:16:24.431 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 18:16:25.097 INFO [http-nio-8080-exec-7] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:16:25.099 INFO [http-nio-8080-exec-7] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:16:25.960 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:16:26.076 INFO [http-nio-8080-exec-9] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:28.113 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:28.321 INFO [http-nio-8080-exec-5] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:28.370 INFO [http-nio-8080-exec-10] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:28.419 INFO [http-nio-8080-exec-7] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:29.246 INFO [http-nio-8080-exec-1] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:29.289 INFO [http-nio-8080-exec-6] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:29.339 INFO [http-nio-8080-exec-1] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:31.599 INFO [http-nio-8080-exec-6] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:31.640 INFO [http-nio-8080-exec-5] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:31.689 INFO [http-nio-8080-exec-7] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:32.489 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:32.528 INFO [http-nio-8080-exec-9] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:17:32.596 INFO [http-nio-8080-exec-10] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.170 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.366 INFO [http-nio-8080-exec-5] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.423 INFO [http-nio-8080-exec-9] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.475 INFO [http-nio-8080-exec-5] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.811 INFO [http-nio-8080-exec-10] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.831 INFO [http-nio-8080-exec-6] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:20.856 INFO [http-nio-8080-exec-1] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:21.929 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:21.949 INFO [http-nio-8080-exec-9] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:21.974 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:21.983 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [homeserv]
+16-Dec-2024 18:19:22.097 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 18:19:22.097 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 18:19:22.098 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:22.602 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 18:19:22.620 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 18:19:22.621 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 18:19:22.765 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 18:19:22.769 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [149] ms
+16-Dec-2024 18:19:22.774 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 18:19:23.091 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.093 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.093 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.093 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.093 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.093 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.094 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.094 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.094 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.095 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.096 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.096 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.096 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.097 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.098 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.098 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.098 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.098 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.098 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.099 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.100 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.100 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.100 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.102 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.102 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.102 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.102 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.102 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.103 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.103 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.103 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:19:23.154 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:23.158 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:23.370 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:19:23.486 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.236 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.347 INFO [http-nio-8080-exec-4] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.378 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.418 INFO [http-nio-8080-exec-4] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.749 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.763 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:26.791 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:31.336 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:31.371 INFO [http-nio-8080-exec-4] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:31.409 INFO [http-nio-8080-exec-10] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:32.639 INFO [http-nio-8080-exec-7] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:32.673 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:32.727 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:33.061 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:33.092 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:33.148 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:20:35.348 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.507 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.581 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.606 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.644 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.963 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.980 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:17.999 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:20.222 INFO [http-nio-8080-exec-3] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:20.268 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:20.343 INFO [http-nio-8080-exec-8] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:26.198 INFO [http-nio-8080-exec-2] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:26.227 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:21:26.283 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.267 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.356 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.377 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.408 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.731 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.755 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:25:58.795 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.368 INFO [http-nio-8080-exec-18] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.398 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.449 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.886 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.920 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:08.965 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:09.677 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:09.707 INFO [http-nio-8080-exec-20] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:09.759 INFO [http-nio-8080-exec-17] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:10.204 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:10.232 INFO [http-nio-8080-exec-18] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:10.279 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:15.596 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:15.627 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:15.686 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:16.404 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:16.431 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:16.484 INFO [http-nio-8080-exec-20] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:20.826 INFO [http-nio-8080-exec-17] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:20.856 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:20.905 INFO [http-nio-8080-exec-18] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:21.710 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:21.747 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:26:21.801 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.058 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.158 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.184 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.216 INFO [http-nio-8080-exec-18] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.545 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.567 INFO [http-nio-8080-exec-20] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:06.608 INFO [http-nio-8080-exec-13] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:14.630 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:14.648 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:14.671 INFO [http-nio-8080-exec-20] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:14.691 WARNING [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 18:27:14.691 WARNING [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 18:27:14.692 WARNING [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:27:15.194 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 18:27:15.200 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 18:27:15.200 WARNING [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 18:27:15.352 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 18:27:15.355 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [155] ms
+16-Dec-2024 18:27:15.366 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 18:27:15.694 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:15.699 INFO [http-nio-8080-exec-14] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:15.855 INFO [http-nio-8080-exec-19] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:15.985 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:27:16.606 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 18:28:01.220 INFO [http-nio-8080-exec-16] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.304 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.334 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.363 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.682 INFO [http-nio-8080-exec-11] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.701 INFO [http-nio-8080-exec-18] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:01.722 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:04.960 INFO [http-nio-8080-exec-20] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:04.990 INFO [http-nio-8080-exec-15] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:28:05.044 INFO [http-nio-8080-exec-12] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:29:51.238 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.229 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.301 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.321 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.347 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.667 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.681 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:28.704 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:31.603 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:31.632 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:31.677 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:32.356 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:32.389 INFO [http-nio-8080-exec-28] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:30:32.432 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:33:45.049 INFO [http-nio-8080-exec-22] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:33:45.085 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:33:45.133 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:33.888 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:33.955 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:33.971 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:33.992 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:34.319 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:34.335 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:34.357 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:36.720 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:36.741 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:36.788 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:37.349 INFO [http-nio-8080-exec-22] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:37.381 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:37.425 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.222 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.249 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.289 INFO [http-nio-8080-exec-28] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.590 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.624 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.665 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.819 INFO [http-nio-8080-exec-29] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.849 INFO [http-nio-8080-exec-22] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:38:38.889 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.413 INFO [http-nio-8080-exec-27] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.502 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.520 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.536 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.852 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.867 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 18:39:34.884 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:25.279 INFO [http-nio-8080-exec-30] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:25.305 INFO [http-nio-8080-exec-22] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:25.321 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:25.328 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [homeserv]
+16-Dec-2024 19:01:25.435 WARNING [http-nio-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 19:01:25.435 WARNING [http-nio-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 19:01:25.435 WARNING [http-nio-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 19:01:25.937 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 19:01:25.942 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 19:01:25.943 WARNING [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 19:01:26.073 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 19:01:26.076 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [134] ms
+16-Dec-2024 19:01:26.083 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 19:01:26.291 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:26.293 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:26.404 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:26.490 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:01:29.532 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 19:02:39.283 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.350 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.373 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.396 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.719 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.732 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:39.749 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:45.757 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:45.789 INFO [http-nio-8080-exec-26] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:45.822 INFO [http-nio-8080-exec-21] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:47.099 INFO [http-nio-8080-exec-24] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:47.128 INFO [http-nio-8080-exec-28] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:47.176 INFO [http-nio-8080-exec-23] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:02:52.829 INFO [http-nio-8080-exec-25] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:03:13.161 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.219 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.272 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.286 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.306 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.623 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.635 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:22.652 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:26.555 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:26.582 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:26.651 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:27.248 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:27.275 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:05:27.336 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.536 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.591 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.608 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.626 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.943 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.956 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:07.977 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.033 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.055 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.095 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.679 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.704 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:10.739 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.117 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.140 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.177 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.714 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.744 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:11.780 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.309 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.333 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.376 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.487 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.512 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.552 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.664 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.690 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.727 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.835 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.862 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:12.909 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.009 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.039 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.074 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.425 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.457 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.489 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.637 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.660 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:07:13.693 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.032 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.089 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.109 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.157 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.476 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.491 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:13.524 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.333 INFO [http-nio-8080-exec-40] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.355 INFO [http-nio-8080-exec-35] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.399 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.886 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.908 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:16.942 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 19:08:18.964 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.899 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.901 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.950 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.951 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.962 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:19.967 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [homeserv]
+16-Dec-2024 21:45:20.071 WARNING [http-nio-8080-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:45:20.072 WARNING [http-nio-8080-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:45:20.072 WARNING [http-nio-8080-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:45:20.574 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 21:45:23.400 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 21:45:23.400 WARNING [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 21:45:23.528 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 21:45:23.530 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [130] ms
+16-Dec-2024 21:45:23.532 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 21:45:23.685 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:45:23.711 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:23.713 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:23.807 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.324 INFO [http-nio-8080-exec-32] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.376 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.394 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.415 INFO [http-nio-8080-exec-33] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.736 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.748 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:42.765 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:43.727 INFO [http-nio-8080-exec-31] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:43.751 INFO [http-nio-8080-exec-37] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:45.293 INFO [http-nio-8080-exec-34] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:45.319 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.493 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.539 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.554 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.571 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.885 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.897 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:56.913 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:57.768 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:57.794 INFO [http-nio-8080-exec-39] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:45:57.834 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.296 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.342 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.355 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.371 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.685 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.698 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:02.714 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:03.332 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:03.353 INFO [http-nio-8080-exec-38] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:03.379 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.279 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.303 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.330 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.628 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.652 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.678 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.826 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.847 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:04.874 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:17.742 INFO [http-nio-8080-exec-36] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:17.799 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:17.817 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:17.836 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:18.153 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:18.165 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:18.182 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:21.493 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:21.512 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.246 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.272 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.591 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.615 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.807 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:22.830 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:23.575 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:23.599 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:49.587 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:49.636 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:49.652 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:49.707 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:50.024 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:50.036 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:50.051 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:52.880 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:52.908 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:53.253 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:53.279 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:53.433 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:53.465 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:56.729 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:56.776 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:56.789 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:56.808 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:57.122 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:57.132 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:57.146 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:57.726 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:57.745 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.148 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.170 INFO [http-nio-8080-exec-41] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.331 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.357 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.518 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:46:58.542 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:02.531 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:02.545 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:02.558 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:02.564 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [homeserv]
+16-Dec-2024 21:47:02.668 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:02.668 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:02.668 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:03.169 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 21:47:03.174 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 21:47:03.174 WARNING [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 21:47:03.286 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 21:47:03.287 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [113] ms
+16-Dec-2024 21:47:03.290 INFO [http-nio-8080-exec-50] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 21:47:03.464 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:03.466 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:03.546 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:04.701 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:08.494 INFO [http-nio-8080-exec-44] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:08.510 INFO [http-nio-8080-exec-45] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:08.531 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:08.531 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:08.531 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:09.034 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 21:47:12.737 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 21:47:12.737 WARNING [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 21:47:12.849 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 21:47:12.850 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [113] ms
+16-Dec-2024 21:47:12.853 INFO [http-nio-8080-exec-52] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.077 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:13.143 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:13.145 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:13.219 INFO [http-nio-8080-exec-51] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:23.623 INFO [http-nio-8080-exec-46] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:23.671 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:23.685 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:23.702 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:24.016 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:24.027 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:24.042 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.056 INFO [http-nio-8080-exec-52] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.079 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.641 INFO [http-nio-8080-exec-51] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.665 INFO [http-nio-8080-exec-54] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.816 INFO [http-nio-8080-exec-53] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.843 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:25.980 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:26.002 INFO [http-nio-8080-exec-42] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:28.847 INFO [http-nio-8080-exec-50] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:28.860 INFO [http-nio-8080-exec-55] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:28.873 INFO [http-nio-8080-exec-54] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:28.878 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [homeserv]
+16-Dec-2024 21:47:28.984 WARNING [http-nio-8080-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:28.984 WARNING [http-nio-8080-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Dec-2024 21:47:28.985 WARNING [http-nio-8080-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:29.486 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Dec-2024 21:47:29.491 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml]
+16-Dec-2024 21:47:29.491 WARNING [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has been ignored
+16-Dec-2024 21:47:29.604 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2024 21:47:29.605 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/adrian/Documents/apache-tomcat-9.0.95/conf/Catalina/localhost/ROOT.xml] has finished in [114] ms
+16-Dec-2024 21:47:29.608 INFO [http-nio-8080-exec-57] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+16-Dec-2024 21:47:29.778 INFO [http-nio-8080-exec-51] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:29.780 INFO [http-nio-8080-exec-51] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:29.857 INFO [http-nio-8080-exec-43] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:32.950 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1328)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:960)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+16-Dec-2024 21:47:36.714 INFO [http-nio-8080-exec-53] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:36.763 INFO [http-nio-8080-exec-54] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:36.782 INFO [http-nio-8080-exec-57] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:36.799 INFO [http-nio-8080-exec-54] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:37.114 INFO [http-nio-8080-exec-57] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:37.126 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:37.142 INFO [http-nio-8080-exec-57] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:37.988 INFO [http-nio-8080-exec-48] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:38.013 INFO [http-nio-8080-exec-55] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:47:38.053 INFO [http-nio-8080-exec-49] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.337 INFO [http-nio-8080-exec-60] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.377 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.390 INFO [http-nio-8080-exec-59] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.406 INFO [http-nio-8080-exec-62] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.719 INFO [http-nio-8080-exec-58] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.732 INFO [http-nio-8080-exec-61] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:37.747 INFO [http-nio-8080-exec-60] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:40.699 INFO [http-nio-8080-exec-47] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:40.719 INFO [http-nio-8080-exec-57] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:40.795 INFO [http-nio-8080-exec-62] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:41.162 INFO [http-nio-8080-exec-59] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:41.186 INFO [http-nio-8080-exec-51] db.DataSource.testConnection Conectat cu succes la baza de date!
+16-Dec-2024 21:48:41.215 INFO [http-nio-8080-exec-58] db.DataSource.testConnection Conectat cu succes la baza de date!

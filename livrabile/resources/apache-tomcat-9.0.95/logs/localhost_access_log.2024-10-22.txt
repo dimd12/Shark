@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Oct/2024:00:48:30 +0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 200 -
+127.0.0.1 - root [22/Oct/2024:00:48:30 +0300] "GET /manager/text/ HTTP/1.1" 200 38
+127.0.0.1 - - [22/Oct/2024:00:48:30 +0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 200 -
+127.0.0.1 - root [22/Oct/2024:00:48:30 +0300] "GET /manager/text/ HTTP/1.1" 200 38
+127.0.0.1 - - [22/Oct/2024:00:48:30 +0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 200 -
+127.0.0.1 - root [22/Oct/2024:00:48:30 +0300] "GET /manager/text/ HTTP/1.1" 200 38

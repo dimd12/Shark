@@ -1,0 +1,6 @@
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 EduMentor. All rights reserved.</p>
+        <p>Today's Date: <span id="currentDate"></span></p>
+    </div>
+</footer>

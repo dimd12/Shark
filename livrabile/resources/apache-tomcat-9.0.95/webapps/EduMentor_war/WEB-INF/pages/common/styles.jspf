@@ -1,0 +1,119 @@
+<style>
+    html, body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        padding-top: 60px;
+        background-color: #f8f9fa; /* Light background */
+        color: #4b0082; /* Dark purple text */
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .navbar {
+        background-color: #e6e6fa; /* Lavender background for navbar */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand, .navbar-nav .nav-link {
+        color: #4b0082 !important; /* Purple text */
+    }
+
+    .navbar-brand:hover, .navbar-nav .nav-link:hover {
+        color: #9370db !important; /* Lighter purple on hover */
+    }
+
+    .offcanvas-sidebar {
+        width: 20%;
+        background-color: #e6e6fa; /* Lavender background for sidebar */
+        padding: 20px;
+        color: #4b0082; /* Purple text */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .offcanvas-sidebar .list-group-item {
+        background-color: #f3e5f5; /* Light purple for list items */
+        color: #4b0082; /* Purple text */
+        border: none;
+        padding: 10px 20px;
+    }
+
+    .offcanvas-sidebar .list-group-item.disabled {
+        opacity: 0.6;
+    }
+
+    .btn-panel button {
+        margin-bottom: 10px;
+        background-color: #9370db; /* Medium purple buttons */
+        color: white;
+        border: none;
+    }
+
+    .btn-panel button:hover {
+        background-color: #ba55d3; /* Bright purple on hover */
+    }
+
+    .login-message {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1rem;
+        color: #8a2be2; /* Purple warning text */
+    }
+
+    .btn-success {
+        background-color: #9370db; /* Medium purple buttons */
+        border-color: #9370db;
+    }
+
+    .btn-success:hover {
+        background-color: #ba55d3; /* Bright purple on hover */
+    }
+
+    .btn-outline-success {
+        color: #4b0082; /* Purple outline buttons */
+        border-color: #4b0082;
+    }
+
+    .btn-outline-success:hover {
+        color: white;
+        background-color: #9370db; /* Medium purple on hover */
+    }
+
+    .container.content {
+        margin-top: 30px;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    /* Footer styling */
+    .footer {
+        background-color: #e6e6fa; /* Lavender background */
+        color: #4b0082; /* Purple text */
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto; /* Pushes footer to the bottom */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    /* Container for consistent spacing */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+</style>
