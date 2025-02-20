@@ -15,10 +15,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-CREATE DATABASE EduMentor;
-
-USE EduMentor;
-
 --
 -- Table structure for table `answers`
 --
@@ -38,7 +34,7 @@ CREATE TABLE `answers` (
   KEY `fk_question_answer` (`question_id`),
   CONSTRAINT `fk_question_answer` FOREIGN KEY (`question_id`) REFERENCES `questions` (`question_id`),
   CONSTRAINT `fk_user_answer` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -47,7 +43,7 @@ CREATE TABLE `answers` (
 
 LOCK TABLES `answers` WRITE;
 /*!40000 ALTER TABLE `answers` DISABLE KEYS */;
-INSERT INTO `answers` VALUES (1,1,1,'idk man',NULL,'2025-02-18 22:00:00'),(2,1,1,'4 i think','','2025-02-18 22:00:00'),(3,1,1,'m','','2025-02-18 22:00:00'),(4,1,1,'a','','2025-02-19 22:00:00'),(5,1,1,'a','','2025-02-19 22:00:00');
+INSERT INTO `answers` VALUES (6,1,11,'Its 4','','2025-02-19 22:00:00');
 /*!40000 ALTER TABLE `answers` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -126,7 +122,7 @@ CREATE TABLE `posts` (
   KEY `fk_category_post` (`category_id`),
   CONSTRAINT `fk_category_post` FOREIGN KEY (`category_id`) REFERENCES `categories` (`category_id`),
   CONSTRAINT `fk_user_post` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -159,7 +155,7 @@ CREATE TABLE `questions` (
   KEY `fk_category_question` (`category_id`),
   CONSTRAINT `fk_category_question` FOREIGN KEY (`category_id`) REFERENCES `categories` (`category_id`),
   CONSTRAINT `fk_user_question` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -168,7 +164,7 @@ CREATE TABLE `questions` (
 
 LOCK TABLES `questions` WRITE;
 /*!40000 ALTER TABLE `questions` DISABLE KEYS */;
-INSERT INTO `questions` VALUES (1,2,'Hey! What\'s 2+2?',NULL,'','2025-02-17 22:00:00',3),(2,2,'Hey, how do you exist','i dont know tbf','','2025-02-18 22:00:00',2),(3,1,'How do you make a webapp?','Please, it\'s my informatics homework','','2025-02-19 22:00:00',1);
+INSERT INTO `questions` VALUES (1,2,'Hey! What\'s 2+2?',NULL,'','2025-02-17 22:00:00',3),(3,1,'How do you make a webapp?','Please, it\'s my informatics homework','','2025-02-19 22:00:00',1),(4,11,'How do you write an Essay','','','2025-02-19 22:00:00',2);
 /*!40000 ALTER TABLE `questions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -191,7 +187,7 @@ CREATE TABLE `reviews` (
   KEY `post_id` (`post_id`),
   CONSTRAINT `reviews_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
   CONSTRAINT `reviews_ibfk_2` FOREIGN KEY (`post_id`) REFERENCES `posts` (`post_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -200,7 +196,7 @@ CREATE TABLE `reviews` (
 
 LOCK TABLES `reviews` WRITE;
 /*!40000 ALTER TABLE `reviews` DISABLE KEYS */;
-INSERT INTO `reviews` VALUES (1,5,1,1,'really cool','2025-02-19 22:00:00'),(2,5,1,1,'sigma','2025-02-19 22:00:00'),(3,4,1,1,'bine','2025-02-19 22:00:00');
+INSERT INTO `reviews` VALUES (1,5,1,1,'really cool','2025-02-19 22:00:00'),(2,5,1,1,'Great guide! Helped me out a lot','2025-02-19 22:00:00'),(5,5,11,1,'really great video','2025-02-19 22:00:00');
 /*!40000 ALTER TABLE `reviews` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -252,7 +248,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `email_UNIQUE` (`email`),
   KEY `fk_role` (`role_id`),
   CONSTRAINT `fk_role` FOREIGN KEY (`role_id`) REFERENCES `roles` (`role_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -261,7 +257,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'admin','Acov1234!.','adi.manoil@outlook.com','Adrian','Manoil','2025-01-28 22:00:00','https://th.bing.com/th/id/OIP.hGSCbXlcOjL_9mmzerqAbQHaHa?rs=1&pid=ImgDetMain',NULL,1),(2,'user','Acov1234!.','manoil.adrian@cnscb.ro','Adrian','Manoil','2025-02-18 15:40:18','https://th.bing.com/th/id/OIP.hGSCbXlcOjL_9mmzerqAbQHaHa?rs=1&pid=ImgDetMain','',2);
+INSERT INTO `users` VALUES (1,'admin','Acov1234!.','adi.manoil@outlook.com','Adrian','Manoil','2025-01-28 22:00:00','https://th.bing.com/th/id/OIP.hGSCbXlcOjL_9mmzerqAbQHaHa?rs=1&pid=ImgDetMain',NULL,1),(2,'user','Acov1234!.','manoil.adrian@cnscb.ro','Adrian','Manoil','2025-02-18 15:40:18','https://th.bing.com/th/id/OIP.hGSCbXlcOjL_9mmzerqAbQHaHa?rs=1&pid=ImgDetMain','',2),(11,'adrianM','Acov1234!.','adrianM@gmail.com','Adrian','Manoil','2025-02-20 20:26:49','https://th.bing.com/th/id/OIP.hGSCbXlcOjL_9mmzerqAbQHaHa?rs=1&pid=ImgDetMain','hi',2);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -274,4 +270,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-20 20:40:35
+-- Dump completed on 2025-02-20 23:13:48
