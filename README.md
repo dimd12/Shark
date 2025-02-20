@@ -8,7 +8,7 @@ Technologies: IDE - IntelliJ IDEA, DataBase - MySQL, Database Connectivity - JDB
 
 Language: English
 
-Demo:
+Demo: https://youtu.be/bS-vCLdtyTM
 
 Pitch:
 
